@@ -10,7 +10,6 @@ fid = fopen('vocab.txt');
 
 % Store all dictionary words in cell array vocab{}
 n = 1899;  % Total number of words in the dictionary
-
 % For ease of implementation, we use a struct to map the strings => integers
 % In practice, you'll want to use some form of hashmap
 vocabList = cell(n, 1);
